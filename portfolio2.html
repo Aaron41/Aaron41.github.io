@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Poppins:400" rel="stylesheet">
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel="stylesheet" href="portfolio2.css">
+
+<title>Aaron Davies - Porfolio Website</title>
+</head>
+
+<body translate="no" >
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav navbart">
+      <li><a href="#home" class="link">Home</a></li>
+      <li><a href="#about" class="link">About</a></li>
+      <li><a href="#portfolio" class="link">Portfolio</a></li>
+      <li><a href="#contact" class="link">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="blocks" id="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 block">
+        <p class="name">Aaron Davies</p>
+          <ul class="sub">
+            <li>
+              <a href="https://codepen.io/decoherance/#" target="_blank">Codepen</a>
+            </li>
+            <li>
+              <a href="https://github.com/Aaron41" target="_blank">Github</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/Aaron_Davies_42" target="_blank">Twitter</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="blocks" id="about">
+  <div class="container">
+    <div class="row bout">
+      <div class="col-md-6">
+        <p class="copy">I am a front end web developer in training with experience in content management and graphic design. Currently honing my skills in HTML, CSS, Javascript, JQuery, Git and a little bit of PHP. Not much else to put here at the moment, this site will be updated as I go along.</p>
+      </div>
+      <div class="col-md-2">
+		      <img class="pic" src="https://res.cloudinary.com/dfkpcr3ru/image/upload/v1518702219/me2_rsphtj.jpg">
+      </div>
+		    <div class="col-md-4">
+		    </div>
+    </div>
+  </div>
+</div>
+
+<div class="blocks" id="portfolio">
+  <div class="container">
+    <div class="row port">
+      <div class="col-md-4 block">
+        <div class="thumbt">
+          <a href="https://codepen.io/decoherance/full/QQjgGM/" target="_blank">
+				     <img class="p1" alt="wiki search" src="https://res.cloudinary.com/dfkpcr3ru/image/upload/v1518704959/wiki_tgpnzw.jpg">
+			     </a>
+        </div>
+        <p class="thumbdesc">Wikipedia Search Engine<p/>
+      </div>
+      <div class="col-md-4 block">
+        <div class="thumbt">
+          <a href="https://codepen.io/decoherance/full/gozVmW/" target="_blank">
+				     <img class="p1" alt="local weather" src="https://res.cloudinary.com/dfkpcr3ru/image/upload/v1518704958/weather_wn2jyi.jpg">
+			    </a>
+        </div>
+        <p class="thumbdesc">Local Weather App<p/>
+      </div>
+      <div class="col-md-4 block">
+        <div class="thumbt">
+			   <a href="https://codepen.io/decoherance/full/dJmvRv/" target="_blank">
+				  <img class="p1" alt="quote generator" src="https://res.cloudinary.com/dfkpcr3ru/image/upload/v1518704958/quote_sg4b5t.jpg">
+			   </a>
+      </div>
+      <p class="thumbdesc">Random Quote Generator<p/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 block">
+      <div class="thumbb">
+			  <a href="https://codepen.io/decoherance/full/LxzjYP/" target="_blank">
+          <img class="p1" alt="Michael Schumacher" src="https://i36.photobucket.com/albums/e29/decoherance/msc_zpsr4tasnpk.png">
+        </a>
+      </div>
+      <p class="thumbdesc">Simple tribute page for FreeCodeCamp challenge<p/>
+    </div>
+    <div class="col-md-4 block">
+      <div class="thumbb">
+			  <a href="http://www.50cycles.com/electric-bikes/kalkhoff-bikes/integrale_8_ltd_edition.html" target="_blank">
+          <img class="p1" alt="50cycles" src="https://i36.photobucket.com/albums/e29/decoherance/Untitled_zpsmeu1i7i6.png?t=1499253906">
+        </a>
+      </div>
+      <p class="thumbdesc">Product page for 50cycles.com<p/>
+    </div>
+    <div class="col-md-4 block">
+      <div class="thumbb">
+        <p>Coming Soon</p>
+      </div>
+      <p class="thumbdesc">Twitch Tv stream checker<p/>
+    </div>
+  </div>
+ </div>
+</div>
+
+<div class="blocks" id="contact">
+ <div class="container">
+  <div class="row">
+   <div class="col-md-4 block">
+   </div>
+   <div class="col-md-4 block">
+    <center>
+     <h1 class="contact">Contact</h1></center>
+      </br>
+      <form id="contact-form">
+			 <label for="name" class="contactext">Name</label>
+     		<input type="text" id="name" name="name" required placeholder="Your name...">
+					<label for="email" class="contactext">E-Mail</label>
+     				<input type="text" id="email" name="_replyto" required placeholder="E-Mail address...">
+							<label for="subject" class="contactext">Message</label>
+     						<textarea id="message" name="message" required placeholder="Write something..." style="height:200px"></textarea>
+									<input type="submit" value="Submit">
+			               <div class="alert alert-danger center-block submit-fail display-none">Message failed<br><a href="#"></a>
+                     </div>
+                     <div class="alert alert-success center-block submit-success display-none">Message sent<br><a href="#"></a>
+                     </div>
+      </form>
+     </div>
+     <div class="col-md-4 block">
+     </div>
+     <div class="container">
+       <div class="row">
+         <div class="col-md-4 block">
+         </div>
+         <div class="col-md-4 block">
+           <footer class="text-center">
+             <h6 class="footertext">
+               Copyright © 2017 Aaron Davies. All rights reserved.
+             </h6>
+           </footer>
+         </div>
+         <div class="col-md-4 block">
+         </div>
+       </div>
+     </div>
+    </div>
+  </div>
+</div>
+
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src="portfolio2.js"></script>
+
+</body>
+</html>
